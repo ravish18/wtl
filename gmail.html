@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>My Signup Page</title>
+    <link href="css/style.css" type="text/css" rel="stylesheet">
+    </head>
+    
+    <body>
+        <div class="sign-up">
+  <div class="signup-box">
+  <form class="createaccount-form" id="createaccount" name="createaccount" action="SignUp?dsh=8820622441396416032&amp;service=mail" method="post">
+  <div class="form-element multi-field name" id="name-form-element">
+  <fieldset>
+  <legend><strong>Name</strong></legend>
+  <label id="firstname-label" class="firstname">
+  <strong>First name</strong>
+  <input n="1" value="" name="FirstName" id="FirstName" spellcheck="false" type="text">
+  <span style="display: block;" class="placeholder-text" id="firstname-placeholder">First</span>
+  </label>
+  <label id="lastname-label" class="lastname">
+  <strong>Last name</strong>
+  <input n="2" value="" name="LastName" id="LastName" spellcheck="false" type="text">
+  <span style="display: block;" class="placeholder-text" id="lastname-placeholder">Last</span>
+  </label>
+  </fieldset>
+      
+  </div>
+  <div class="form-element email-address" id="gmail-address-form-element">
+  <label id="gmail-address-label">
+  <strong>
+  Choose your username
+  </strong>
+  <input n="3" maxlength="30" autocomplete="off" name="GmailAddress" id="GmailAddress" value="" spellcheck="false" type="text">
+  <span class="atgmail">@gmail.com</span>
+  </label>
+  
+  
+  <div class="username-suggestions" id="username-suggestions">
+  </div>
+  </div>
+  <div class="form-element" id="password-form-element">
+  <label id="password-label">
+  <strong>Create a password</strong>
+  <input n="4" name="Passwd" id="Passwd" type="password">
+  </label>
+  
+  
+  </div>
+  <div class="form-element" id="confirm-password-form-element">
+  <label id="confirm-password-label">
+  <strong>Confirm your password</strong>
+  <input n="5" name="PasswdAgain" id="PasswdAgain" type="password">
+  </label>
+  
+  </div>
+  
+  <div class="form-element" id="gender-form-element">
+  <label id="gender-label">
+  <strong id="GenderLabel">Gender</strong>
+  <div id="Gender"><div title="Gender" aria-activedescendant=":d" aria-haspopup="true" tabindex="0" aria-expanded="false" style="-moz-user-select: none;" role="listbox" class="goog-inline-block goog-flat-menu-button jfk-select"><div aria-posinset="0" aria-setsize="3" role="option" id=":d" class="goog-inline-block goog-flat-menu-button-caption">I am...</div><div aria-hidden="true" class="goog-inline-block goog-flat-menu-button-dropdown">&nbsp;</div></div><input id="HiddenGender" name="Gender" type="hidden"></div>
+  </label>
+  <span role="alert" class="errormsg" id="errormsg_0_Gender">
+  </span>
+  </div>
+  <div class="form-element" id="phone-form-element">
+  <label id="phone-label" for="RecoveryPhoneNumber">
+  <strong id="RecoveryPhoneNumberLabel">Mobile phone</strong>
+  </label>
+  <input value="IN" name="RecoveryPhoneCountry" id="RecoveryPhoneCountry" type="hidden">
+  <table class="i18n_phone_number_input i18n_phone_number_input-empty"><tbody><tr><th class="i18n_phone_number_input-menu i18n_phone_number_input-loRes"><div title="Mobile phone" aria-haspopup="true" tabindex="0" aria-expanded="false" style="-moz-user-select: none;" role="listbox" class="goog-inline-block i18n-phone-select-country"><div class="goog-inline-block i18n-phone-select-country-caption"><div style="background-position: 0px -1694px;" class="i18n-phone-flag"></div></div><div aria-hidden="true" class="goog-inline-block i18n-phone-select-country-dropdown">&nbsp;</div></div></th><td class="i18n_phone_number_input-input"><input class="i18n_phone_number_input-inner_input" tabindex="0" name="RecoveryPhoneNumber" id="RecoveryPhoneNumber" value="" type="tel"></td></tr></tbody></table>
+  
+  <span role="alert" class="errormsg" id="errormsg_0_RecoveryPhoneNumber">
+  </span>
+  </div>
+  <div class="form-element recovery-email" id="recovery-email-form-element">
+  <label id="recovery-email-label">
+  <strong>Your current email address</strong>
+  <input n="6" name="RecoveryEmailAddress" id="RecoveryEmailAddress" value="" spellcheck="false" type="text">
+  </label>
+  
+  <span role="alert" class="errormsg" id="errormsg_0_RecoveryEmailAddress">
+  </span>
+  </div>
+  <input name="SkipCaptcha" id="SkipCaptcha" value="yes" type="hidden">
+  <div class="form-element" id="country-code-form-element">
+  <label id="country-code-label">
+  <strong id="CountryCodeLabel">Location</strong>
+  <div id="CountryCode"><div title="Location" aria-activedescendant=":h" aria-haspopup="true" tabindex="0" aria-expanded="false" style="-moz-user-select: none;" role="listbox" class="goog-inline-block goog-flat-menu-button jfk-select"><div aria-posinset="1" aria-setsize="257" role="option" id=":h" class="goog-inline-block goog-flat-menu-button-caption">India (भारत)</div><div aria-hidden="true" class="goog-inline-block goog-flat-menu-button-dropdown">&nbsp;</div></div><input value="IN" id="HiddenCountryCode" name="CountryCode" type="hidden"></div>
+  
+  <span role="alert" class="errormsg" id="errormsg_0_CountryCode">
+  </span>
+  </label>
+  </div>
+  <div style="display: none;" class="form-element terms-of-service" id="termsofservice-form-element">
+  <label id="termsofservice-label">
+  <input value="yes" name="TermsOfService" id="TermsOfService" type="checkbox">
+  <span id="terms-of-service-label">
+  <strong>I agree to the Google <a target="_blank" id="TosLink" href="https://accounts.google.com/TOS?loc=IN&amp;hl=en">Terms of Service</a> and <a target="_blank" id="PrivacyLink" href="https://accounts.google.com/TOS?loc=IN&amp;hl=en&amp;privacy=true">Privacy Policy</a></strong>
+  </span>
+  </label>
+  <span role="alert" class="errormsg" id="errormsg_0_TermsOfService">
+  </span>
+  </div>
+  <div class="form-element" id="extra-tos"><input value="AHkK1WQ+ClpwujivSDH6KXrO7j7zqfbhbmnbvpozmgT3BFd9/lraMmnWGTjcizKyp776WDlnysjEZ8LauAwZrghRgT/Ibs3X3BdZWdERe7PHWVSdxihQ1LRoCcerYPthkTzjKSqIlatOKAuhc4bQH/QMfy6+oTXmo09FF+uf3Md9YB9JYEY8kbwAqp4F9BCC1UBoe2WuTR5napZ3oWYoXHFI+ANuLh7beU4JRghtr7nJjtDGR2j2W2DGu9kH8mde479FT2OEfpRmmtNK8SHmu7fkQRQByrr3dFriMSNCLIp7liMuZKDqvCPe4bOAmDMeGz3ysx3+ahUJgk9kp8NrfMrcrKM9P7nzItG7pkqJcX8yVHQjvLU1f64n6DkVxM2w+MjAFBv1jT8h;AHkK1WR1wDA5L1G/EUjd2G9oNhkM+MIJVJHXMDAUdnydFJ8tsFzWZJ1q2BM4D87SILNfS3zdCyXR6JnElWLioK42tuPF4ImMgYRdkwrrtRWMa0QttIGjngXRW/gn8Lfxd43v40KUEvEq7ToWjiOPESn5VE7iDt+x/X5SaRlYqaGwQueDLEkcbOt42mmImSSGX26bYJyrdNkesdG64x5bhWbAVMQa+Rd75PlkeLuNrMMw+K92KOBmWoH/4A7/7nSWGfu9lcd8VZ24H6nCmc3BBemwva6Xj2NZ55M3V5QlM1uEh1EGkPqcpk9ww0IdyEAAl2N6aPDr+uUbuh1xEVnZzpGdnrrLxvoXU0nVd+CTj/TGliSR33btob2Xf28NqzMt2CO6n8VoGP2NkgDf0WLL9Vcts96vXlYxCFC5HWtFSI72fnmSmGnM3jgJ7oVagZ2bra5qJvtMTIwc2rMsL6bguAqbGi2IvRIjj8llZ5IsijYCWjFnI7uz485zcIab/jlctBmopiDJH4QnuTRHS65V82Pzd4l8ideVl2KA80KfB+djZo82/xNK+SYgHbBTY3uGGEU11f+JHG77znixS61Yc9GShy68I9V6s9EvTnfs9oyKK9teabcoiJS/mpxxICVrBlYZvT8sHsyZtg6vS0jp7rm0VM+P95ZGCsKdpQrW3v8nvE96Go8VP9kZAWQ4VmsimIJFIT9NWO5GN+m2az30QJvhRTYu79XVFq69UefqZSESZFEaKdBjL3E+kYEm+fR+lt8tNFXbGyZKBVxyFqAzWsabXHDaVUpYTs3h0yP32YBhyZvaaLEpo3wrvmXdhkEHV5AAzcUVuyHVJhyAyQpMnYSMO6gWuQnWOQMpClBDoXXb5WrLG+K53oQ=;AHkK1WRVH9LU0d7Nl8faA0fdLukxy9dkczAOAVzVYNJ6U0p8AgTkevQRsKMidr3LzRhCcoxXD0LK56dNSJysLw7+JGKL2PFQhm8PnHQE7HaqjdFczjE9Yboz2YRnk7oANH1Rbb5LU/gCCmNSZLoiLtSi79kW6t12wsDwggEN4vKK185r+y0hvxMBB9WAC4C3mPkd6vYfOME6hR7GOETGBAWK6vOSil5SZ/hKBF+DoquZ063ltn+g0FH7W0dIKyGhOXOknst+8rI38UmryGSX0lw+AHoopOS1O2pl3MJ6DMUF0I5PhcL4v75+1yRnuYjTIIxLZk46HFv5;AHkK1WTmYdW37eLZdBCtPdMhk+tHFCzLmpVqAqMfVVy0hnFdVu2N7f9Q5CPvA8tHj4aIhWKTIg19LLfGl40k6p482wC/3IQwgPlM+O87UekZCen9HvZ+k1KkcdA1q4mrmMbsIPtgyi55;AHkK1WSL60qEQoKUROhbQEe/dYjAvG+VWsDC9j6+0bxQy4Nayr14N3hM6g3xh/JFCLkcRokC2NSIglFDVelj4PrVKZ48hESJdb/70zMnQa6k2iCnjE6zDDPIoYZFdHIFkdX9wR2/rUb1;AHkK1WSS9ld5IEdbeSpGOPLuwe3vuOJBkyKwnY1x1LLP60Tf8YWwVfGHzxZWRETEkgK9KGdE7jm88+vWeeD3az7AQeNwNkfcxMcFdlguL5PWQgi1sOrif9mr4ia7rpBV6dphdRdHRG4h;AHkK1WTolVVGob/zdZWAw818MPvR0iox/UhzhlkwqoJSHFH88+gQDMM6H3VnzERqcRcTLeClWAyNOdvi5TGhYusg/F9YqfXSai1SU7R7saUSjnyh0sCoOPLxaLzxcMUZ43YRcu04yKbL;" name="extTosRk" type="hidden"><input value="AHkK1WSI87MD8LruaaR8RYfJedxgcO6H+NAA2mrfr/85qq+9/KLtE2adeFpBa5NlyH8C3CDDGttp3uxZ7nis2cj4Yqc52DdBJiKgZtErSrVo76Ta9XslMs3X9sCy4r+5FGdOzTcvXM3qjtI6yyAJrz+FUcZyYCX90w==" name="extTosPue" type="hidden"><input value="true" name="extTos2" type="hidden"></div>
+  <input name="timeStmp2" id="timeStmp2" value="1469420468151" type="hidden">
+  <input name="secTok2" id="secTok2" value=".AG5fkS-6ssifL5oZw1paGJ9tdAN8rOwucQ==" type="hidden">
+  <div class="form-element nextstep-button">
+  <input id="submitbutton" name="submitbutton" value="Next step" class="g-button g-button-submit" type="submit">
+  </div>
+  </form>
+  </div>
+  <p class="why-information"><a target="_blank" href="https://support.google.com/accounts/answer/1733224?hl=en">Learn more</a> about why we ask for this information.</p>
+  </div>
+    </body>
+</html>

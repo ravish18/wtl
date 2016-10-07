@@ -1,0 +1,78 @@
+#logo{
+	display: block;
+	margin: 0 auto;
+}
+
+nav{
+	background-color: #5f5f5f;
+	position: fixed;
+	width: 100%;
+	margin-left:-0.5em;
+	z-index: 10; 
+}
+
+
+nav>ul li{
+	display: inline;
+	margin-left:6em; 
+}
+
+nav>ul li a{
+	text-decoration: none;
+	font-size: 1.5em;
+	color: white;
+}
+
+#content{
+	margin-top: 5em;
+}
+
+footer{
+	position: fixed;
+	background-color: #5f5f5f;
+	color: white;
+	text-align: center;
+	width: 100%;
+	margin-left: -0.5em;
+	bottom: 0;
+}
+
+#left,#right{
+	position: relative;
+	float: left;
+}
+
+#left{
+	width: 20%;
+}
+
+#right{
+	width: 70%;
+	margin-left: 1.5em;
+}
+
+blockquote{
+background-color: yellow;
+font-family:sans-serif;
+font-weight: bold;
+font-style: italic;
+padding: 10px;
+}
+
+#news{
+	border: 3px dotted blue;
+	border-radius: 5px;
+	padding: 5px;
+
+}
+
+#news>span{
+	display: block;
+	text-align: center;
+	font-size: 1.5em;
+	color: blue;
+}
+
+#news>ul li{
+	padding: 8px;
+}
